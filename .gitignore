@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch weights & checkpoints (Too large for standard GitHub)
+*.pth
+*.pt
+*.bin
+*.pkl
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Datasets
+data/
+dataset/
+*.csv.gz
+
+# IDE
+.vscode/
+.idea/

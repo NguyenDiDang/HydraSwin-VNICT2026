@@ -1,0 +1,7 @@
+﻿Metric,Value,Percentage,Notes
+Total_Test_Samples,4444,100.0%,Sequestered 10% test split from Fashion Product dataset
+Rule_Triggered_Cases,148,3.33%,Samples where raw top-1 contradicted ontological constraints
+True_Corrections_Success,136,91.89%,Anomalies successfully corrected to ground-truth valid class
+False_Corrections_Error,12,8.11%,Unresolved ambiguities or incorrect fallback overrides
+Season_Macro_F1_Before_Rule,0.8910,-,Baseline neural output without logical post-processing
+Season_Macro_F1_After_Rule,0.9852,-,+0.0942 improvement via deterministic constraint satisfaction
